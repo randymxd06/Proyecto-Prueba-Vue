@@ -1,4 +1,4 @@
-# proyecto-prueba
+# proyecto-prueba-vue
 
 ## Project setup
 ```
