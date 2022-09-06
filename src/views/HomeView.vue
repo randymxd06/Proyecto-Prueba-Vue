@@ -21,7 +21,7 @@
         </article>
 
         <article class="col-sm-12 mb-3">
-          <CustomButton title="Cancelar" type="reset" variant="danger"/>
+          <CustomButton title="Cancelar" type="reset" variant="danger" />
         </article>
 
         <div class="col-sm-12 mb-3">
