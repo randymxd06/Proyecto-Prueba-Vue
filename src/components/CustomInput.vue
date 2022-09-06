@@ -7,6 +7,7 @@
             :type="type"
             :placeholder="placeHolder"
             @input="$emit('input', $event)"
+            :state="(value != '') ? true : state"
         ></b-form-input>
     </b-form-group>
 
@@ -40,6 +41,12 @@ export default {
             required: false,
             type: String,
             default: 'text'
+        },
+
+        state: {
+            required: false,
+            type: Boolean,
+            default: null
         },
 
         placeHolder: {
